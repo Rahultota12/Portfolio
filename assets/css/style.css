@@ -129,6 +129,8 @@ nav{
 }
 .nav-img{
     flex-basis: 200px;
+    border-radius: 50%;
+    border: #0A0017;
 }
 .nav-links ul{
     justify-content: flex-end;
