@@ -1,2 +1,2 @@
 # Personal-Portfolio
-https://ijatinkhatter.github.io/Personal-Portfolio/
+https://rahultota12.github.io/Portfolio/
