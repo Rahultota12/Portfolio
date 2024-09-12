@@ -261,6 +261,58 @@ nav{
     font-size: 2.1rem;
 }
 
+/* experience section */
+.experience {
+    padding: 60px 20px;
+    position: relative;
+    background: linear-gradient(180deg,
+    var(--gradient-light)0%, var(--gradient-dark)100%);
+    border-top:none;
+}
+
+.experience-wave {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.experience-container {
+    flex-direction: column;
+    align-items: center;
+}
+
+.experience-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.experience-card {
+   width: 48%;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.21);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.3px);
+    -webkit-backdrop-filter: blur(5.3px);
+    border: 1px solid rgba(255, 255, 255, 1);
+    padding: 1rem;
+    position: relative;
+}
+
+.experience-details h3 {
+    font-size: 1rem;
+    text-align: justify;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 20px black;
+}
+
 /* ABOUT SECTION */
 .about{
     background: linear-gradient(180deg,

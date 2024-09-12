@@ -253,7 +253,95 @@
         bottom: 2rem;
     }
 }
+@media (max-width: 767px) {
+    .experience {
+        padding: 40px 10px;
+    }
 
+    .experience-container {
+        padding: 0 10px;
+    }
+
+    .experience-content {
+        padding: 0 10px;
+    }
+
+    .experience-card {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .experience-details h3 {
+        font-size: 18px;
+    }
+
+    .experience-details p {
+        font-size: 14px;
+    }
+}
+
+/* Tablet (768px to 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .experience-card {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .experience-details h3 {
+        font-size: 20px;
+    }
+
+    .experience-details p {
+        font-size: 16px;
+    }
+}
+
+/* Laptop and PC (1025px and up) */
+@media (min-width: 1025px) {
+    .experience {
+        padding: 80px 20px;
+    }
+
+    .experience-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .experience-content {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .experience-card {
+        width: 45%;
+        margin: 20px 1%;
+        padding: 30px;
+    }
+
+    .experience-details h3 {
+        font-size: 22px;
+    }
+
+    .experience-details p {
+        font-size: 18px;
+    }
+}
+
+/* Large Screen (1440px and up) */
+@media (min-width: 1440px) {
+    .experience-card {
+        width: 30%;
+    }
+
+    .experience-details h3 {
+        font-size: 24px;
+    }
+
+    .experience-details p {
+        font-size: 18px;
+    }
+}
 
 @media screen and (max-width: 425px) {
     h2{
